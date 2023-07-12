@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.profile-pic {
+  width: 225px;
+  height: 225px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 50%;
+
+  outline: 8px solid darkblue;
+}
+
+.group {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 8px black;
+  border-radius: 8px;
+}
+
+.flat-card {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.side-nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 50%;
+  left: 0;
+
+  transform: translateY(-50%);
+
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.side-nav > a {
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+:target {
+}
+
+@keyframes fadeInOut {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: pink;
+  }
+}
